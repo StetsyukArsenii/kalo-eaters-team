@@ -1,11 +1,32 @@
 {
     "users": [
-{
-"id":1,
-"name":"Andriy",
-"surname":"Moskalenko",
-"photo_url":"https://raw.githubus...",
-"balance":1500
-}
+        {
+            "id":1,
+            "name": "Andriy",
+            "surname": "Moskalenko",
+            "photo_url": "https://raw.githubus...",
+            "balance": 1500
+        },
+        {
+            "id": 2,
+            "name": "kaller",
+            "surname": "kulerov",
+            "photo_url": "https://raw.githubus...",
+            "balance": 1500
+        },
+        {
+            "id":3,
+            "name": "stalin",
+            "surname": "lenin",
+            "photo_url": "https://raw.githubus...",
+            "balance": 1488
+        },
+        {
+            "id":4,
+            "name": "smishna kaka",
+            "surname": "barabolya",
+            "photo_url": "https://raw.githubus...",
+            "balance": 91
+        }
     ]
 }

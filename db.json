@@ -2,6 +2,25 @@
     "clash goonyall": [
         {
         "id":1
+        },
+        {
+            "id":2,
+            "name":"mega knight",
+            "price":8,
+            "evoution": true,
+            "maximum gold level":2
+
+        },
+        {
+            "id":3,
+            "name":"penis babusi",
+            "cost":"nemalo"
+            
+        }
+        ,
+        {
+            "id":4,
+            "name":"GGGGG"
         }
     ]   
 }

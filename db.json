@@ -2,9 +2,10 @@
     "clash goonroyall": [
         {
             "id":1,
-            "name": "big dick",
-            "price": -8,
-            "evoution": false
+            "name": "knight",
+            "price": 3,
+            "evoution": true,
+            "maximum gold level":3
         },
         {
             "id":2,
@@ -25,7 +26,10 @@
         ,
         {
             "id":4,
-            "name":"evo berserker"
+            "name":"evo berserker",
+            "prise":"2",
+            "evoution": false,
+            "maximum gold level":6
         }
     ]   
 }

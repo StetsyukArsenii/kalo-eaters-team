@@ -22,7 +22,10 @@
         ,
         {
             "id":4,
-            "name":"evo berserker"
+            "name":"evo berserker",
+            "prise":"2",
+            "evoution": false,
+            "maximum gold level":6
         }
     ]   
 }

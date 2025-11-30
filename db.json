@@ -1,7 +1,11 @@
 {
     "clash goonroyall": [
         {
-        "id":1
+            "id":1,
+            "name": "knight",
+            "price": 3,
+            "evoution": true,
+            "maximum gold level":3
         },
         {
             "id":2,
@@ -13,7 +17,7 @@
         },
         {
             "id":3,
-            "name":"penis babusi",
+            "name":"mother witch",
             "prise":"4",
             "evoution": false,
             "maximum gold level":3

@@ -1,39 +1,7 @@
 {
-    "users": [
+    "vinigret😀😁🤣🤣": [
         {
-            "id":1,
-            "name": "Andriy",
-            "surname": "Moskalenko",
-            "photo_url": "https://raw.githubus...",
-            "balance": 1500
-        },
-        {
-            "id": 2,
-            "name": "xleb",
-            "surname": "kulerov",
-            "photo_url": "https://raw.githubus...",
-            "balance": 1500
-        },
-        {
-            "id":3,
-            "name": "stalin",
-            "surname": "lenin",
-            "photo_url": "https://raw.githubus...",
-            "balance": 1488
-        },
-        {
-            "id":4,
-            "name": "smishna kakahhh",
-            "surname": "barabolya",
-            "photo_url": "https://raw.githubus...",
-            "balance": 91
-        },
-        {
-            "id":5,
-            "name": "asdf;l",
-            "surname": "gitler",
-            "photo_url": "https://raw.githubus...",
-            "balance": 1
+        "id":1
         }
-    ]
+    ]   
 }

@@ -16,14 +16,16 @@
         },
         {
             "id":3,
-            "name":"penis babusi",
-            "cost":"nemalo"
+            "name":"mother witch",
+            "prise":"4",
+            "evoution": false,
+            "maximum gold level":3
             
         }
         ,
         {
             "id":4,
-            "name":"GGGGG"
+            "name":"evo berserker"
         }
     ]   
 }

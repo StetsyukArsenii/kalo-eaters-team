@@ -1,54 +1,36 @@
 async function fetchGameData() {
     try {
         const response = await fetch('./db.json');
-        if (!response.ok) {
-            throw new Error(`HTTP error! Status: ${response.status}`);
-        }
+        if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
+
         const data = await response.json();
 
-        
-        const units = data["clash goonroyall"]; 
-        
+        const units = data["clash goonroyall"] || []; 
+
         displayUnits(units);
 
     } catch (error) {
         console.error('Failed to fetch data:', error);
+        document.getElementById('data-container').innerText = 'Failed to load data.';
     }
 }
 
 function displayUnits(units) {
-    const container = document.getElementById('data-container'); 
-    
-    
-    container.innerHTML = `
-        <table>
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Price</th>
-                    <th>Evolution</th>
-                    <th>Max Level</th>
-                </tr>
-            </thead>
-            <tbody id="table-body">
-            </tbody>
-        </table>
-    `;
-    
-    const tbody = document.getElementById('table-body');
+    const container = document.getElementById('data-container');
+    container.innerHTML = "";
 
     units.forEach(unit => {
-        const row = document.createElement('tr');
+        const card = document.createElement('div');
+        card.className = "user-card";
 
-        
-        row.innerHTML = `
-            <td>${unit.name}</td>
-            <td>${unit.price || unit.prise}</td> <!-- Fallback for the 'prise' typo -->
-            <td>${unit.evoution ? 'Yes' : 'No'}</td>
-            <td>${unit["maximum gold level"]}</td>
+        card.innerHTML = `
+            <h2>${unit.name}</h2>
+            <p><strong>Price:</strong> ${unit.price || unit.prise || 'N/A'}</p>
+            <p><strong>Evolution:</strong> ${unit.evoution ? "true" : "false"}</p>
+            <p><strong>Max Level:</strong> ${unit["maximum gold level"] || 'N/A'}</p>
         `;
 
-        tbody.appendChild(row);
+        container.appendChild(card);
     });
 }
 
